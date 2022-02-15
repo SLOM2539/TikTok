@@ -7,9 +7,9 @@
     "video",
     "tiktok"
   ],
-  "success_url": "https://T.me/jmthon",
-  "website": "https://github.com/JMTHON-AR",
-  "repository": "https://github.com/JMTHON-AR/TikTok",
+  "success_url": "https://T.me/kkrck",
+  "website": "https://github.com/SLOM2539",
+  "repository": "https://github.com/SLOM2539/TikTok",
   "env": {
     "BOT_TOKEN": {
       "description": "ضع هنا توكن البوت احصل عليه من هنا  https://t.me/botfather",

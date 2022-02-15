@@ -41,7 +41,10 @@ async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
 
 @jmthon.on_message(filters.command('start') & filters.private)
 async def _start(bot, update):
-  await update.reply_text(f"** مرحبا أنا بوت تحميل من التيكتوك يمكنك تحميل الفيديوهات او المقاطع الصوتية من هنا فقط ارسل رابط المقطع هنا**", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+  await update.reply_text(f"**اهلين انا بوت تحميل تيك توك 🧚🏻‍♀️**
+- لتحميل فيديو او صور ارسل رابط المقطع
+- التحميل بدون علامة مائيه وبعلامه مائيه
+- التحميل سريع وتستطيع تحميل بصوتي", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
 # Downloader for tiktok
 @jmthon.on_message(filters.regex(pattern='.*http.*') & filters.private)

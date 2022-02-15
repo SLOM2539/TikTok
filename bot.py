@@ -11,8 +11,7 @@ downloads = './downloads/{}/'
 START_BUTTONS=[
     [
         InlineKeyboardButton('المطور', url='https://t.me/ukkkp'),
-    ],
-    [InlineKeyboardButton('تحديثات', url='https://t.me/kkrck')],
+        InlineKeyboardButton('تحديثات', url='https://t.me/kkrck'),
     ],]
 
 DL_BUTTONS=[
